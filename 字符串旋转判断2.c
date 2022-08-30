@@ -16,7 +16,7 @@ int  is_leftmove(char* str1, char* str2)
 }
 int main()
 {
-	char arr1[] = "abcdef";
+	char arr1[30] = "abcdef";
 	char arr2[] = "cdefab";
 	int ret = is_leftmove(arr1, arr2);
 	if (ret == 1)
