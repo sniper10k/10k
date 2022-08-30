@@ -20,9 +20,9 @@ void leftmove(char* arr, int k)
 	assert(arr);
 	int len = strlen(arr);
 	assert(k <= len);
-	reverse(arr, arr + k - 1);		//Ç°k¸ö×Ö·ûµÄÄæĞò
-	reverse(arr + k, arr + len - 1);//kºóÃæ×Ö·ûµÄÄæĞò
-	reverse(arr, arr + len - 1);	//ÕûÌå×Ö·ûµÄÄæĞò
+	reverse(arr, arr + k - 1);		//å‰kä¸ªå­—ç¬¦çš„é€†åº
+	reverse(arr + k, arr + len - 1);	//kåé¢å­—ç¬¦çš„é€†åº
+	reverse(arr, arr + len - 1);		//æ•´ä½“å­—ç¬¦çš„é€†åº
 }
 int main()
 {
