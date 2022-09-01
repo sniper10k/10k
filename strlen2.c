@@ -14,4 +14,4 @@ int main()
     int len = my_strlen(arr);
     printf("%d\n", len);
     return 0;
-}
+} 
