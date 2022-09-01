@@ -8,7 +8,7 @@ int my_strlen(const char* str)
     while (*str)    //*str!='\0'
     {
         count++;
-        str++;    //µØÖ·++,²»ÄÜ½âÒıÓÃ    
+        str++;    //è¿™é‡Œæ˜¯åœ°å€+1,ä¸èƒ½è§£å¼•ç”¨
     }
     return count;
 }
