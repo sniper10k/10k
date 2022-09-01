@@ -6,10 +6,10 @@ char* my_strcat(char* arr1, char* arr2)
     assert(arr1 != NULL);
     assert(arr2 != NULL);   //assert(arr1&&arr2);
     char* ret = arr1;
-    //ÏÈÕÒµ½arr1ÖĞµÄ\0;
+    //å…ˆæ±‚å‡ºarr1é‡Œé¢\0çš„ä½ç½®
     while (*arr1)
         arr1++;
-    //×·¼Ó,ºÍcpyÒ»Ñù
+    //è¿½åŠ ,é‡‡ç”¨cpyä¸€æ ·çš„å†™æ³•
     while (*arr1++ = *arr2++);
     return ret;
 }
